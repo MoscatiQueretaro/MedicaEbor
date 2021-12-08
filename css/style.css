@@ -2357,13 +2357,33 @@ td.text-right {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
+.sbox-3-icone {
+  background-color: #d68ab7;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
 
 .sbox-3-icon.st-blue-icon {
   background-color: #004861;
 }
+.sbox-3-icone.st-blue-icon {
+  background-color: #d68ab7;
+}
 
 .icon-sm .sbox-3-icon [class*="flaticon-"]:before,
 .icon-sm .sbox-3-icon [class*="flaticon-"]:after { 
+  color: #fff;
+  font-size: 3.45rem;
+  line-height: 110px!important;
+}
+
+.icon-sm .sbox-3-icone [class*="flaticon-"]:before,
+.icon-sm .sbox-3-icone [class*="flaticon-"]:after {
   color: #fff;
   font-size: 3.45rem;
   line-height: 110px!important;
